@@ -19,4 +19,24 @@
     <string name="not_hazardous_asteroid_image">Not hazardous asteroid image</string>
     <string name="this_is_nasa_s_picture_of_day_showing_nothing_yet">This is NASA\'s picture of day, showing nothing yet</string>
     <string name="nasa_picture_of_day_content_description_format">NASA\'s picture of day: %s</string>
+    <string name="clear_db">Clear database</string>
+    <string name="asteroid_description">Asteroid %s seen on %s deemed %s for earth</string>
+    <string name="asteroid_detailed_description">Asteroid %s seen on %s deemed %s for earth.
+        Absolute magnitude of %f au.
+        Estimated diameter %f km.
+        Relative velocity %f km/s.
+        Distance from earth %f au</string>
+    <string name="hazardous">Potentially hazardous</string>
+    <string name="non_hazardous">Not hazardous</string>
+    <string name="daily_image_description">Image of the day from nasa</string>
+    <string name="loading_list_of_asteroids">loading list of asteroids</string>
+    <string name="done">Done</string>
+    <string name="submit">Submit</string>
+    <string name="remove_favorite">Remove favorite</string>
+    <string name="set_favorite">Set as favorite</string>
+    <string name="added_favorite">Added to favorites</string>
+    <string name="removed_favorite">Removed from favorites</string>
+    <string name="hazard_image">Hazardous asteroid image</string>
+    <string name="non_hazard_image">Non hazardous asteroid image</string>
+    <string name="learn_more_au">Learn more about the Astronomical unit(au)</string>
 </resources>
