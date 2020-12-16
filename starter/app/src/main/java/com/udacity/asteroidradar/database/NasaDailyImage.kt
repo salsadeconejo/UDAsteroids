@@ -10,6 +10,8 @@ data class NasaDailyImage(
     val dayId: Long = 0L,
     @Json(name = "date")
     val date: String,
-    @Json(name = "hdurl")
-    val hdUrl: String
+    @Json(name = "url")
+    val hdurl: String,
+    @Json(name = "media_type")
+    val type: String
 )

@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.udacity.asteroidradar.Asteroid
 
-@Database(entities = [NasaDailyImage::class, Asteroid::class], version = 3, exportSchema = false)
+@Database(entities = [NasaDailyImage::class, Asteroid::class], version = 5, exportSchema = false)
 abstract class NasaDatabase : RoomDatabase() {
     abstract val nasaDatabaseDao: NasaDatabaseDao
 }

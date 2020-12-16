@@ -67,9 +67,11 @@ class NasaRepository(context: Context) {
             if (nasaImage.value == null && nasaImage.value?.date != getCurrentDay()) {
                 try {
                     val newImage = NasaApi.retrofitService.getImageOfTheDay(Constants.API_KEY)
-                    database.nasaDatabaseDao.insertImage(newImage)
+                    if (newImage.type == "image") {
+                        database.nasaDatabaseDao.insertImage(newImage)
+                    }
                 } catch (exception: Exception) {
-
+                    exception.printStackTrace()
                 }
             }
         }
